@@ -1,0 +1,43 @@
+.base_contain {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.base {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.base .section_title {
+    font-size: 40px;
+}
+
+.base ol {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.base li {
+    cursor: pointer;
+}
+
+.base .next_btn {
+    color: white;
+    font-size: 30px;
+    border: 1px solid gray;
+    outline: none;
+    background-color: transparent;
+    padding: 30px 50px;
+    border-radius: 50px;
+    width: fit-content;
+    margin-top: 50px;
+}

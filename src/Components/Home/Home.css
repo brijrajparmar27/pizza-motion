@@ -1,0 +1,23 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.home .home_title {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.home .create_btn{
+    color: white;
+    font-size: 30px;
+    border: 1px solid gray;
+    outline: none;
+    background-color: transparent;
+    padding: 30px 50px;
+    border-radius: 50px;
+}

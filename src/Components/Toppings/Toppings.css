@@ -1,0 +1,43 @@
+.toppings_contain {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toppings {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.toppings .section_title {
+    font-size: 40px;
+}
+
+.toppings ol {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.toppings li {
+    cursor: pointer;
+}
+
+.toppings .next_btn {
+    color: white;
+    font-size: 30px;
+    border: 1px solid gray;
+    outline: none;
+    background-color: transparent;
+    padding: 30px 50px;
+    border-radius: 50px;
+    width: fit-content;
+    margin-top: 50px;
+}

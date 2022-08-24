@@ -1,0 +1,27 @@
+.order_contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 30px;
+}
+
+.order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+h4 {
+    font-weight: 300;
+}
+h3{
+    padding-left: 30px;
+    font-weight: 300    ;
+}
